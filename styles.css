@@ -63,3 +63,19 @@ body {
     background: rgb(126, 43, 33);
     border-radius: 0;
 }
+.indicator{
+    position: absolute;
+    bottom: 25%;
+    left:61%;
+    display: none;
+}
+@media (width<480px) {
+    .indicator{
+        bottom: 18%;
+        left:50%;
+        transform: translate(-50%,-50%);
+    }
+    .indicator>i{
+        display: none;
+    }
+}
