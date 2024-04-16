@@ -1,0 +1,65 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Handlee", cursive !important;
+    font-weight: 400 !important;
+    font-style: normal !important;
+}
+
+.card {
+    width: 45vh !important;
+    height: 45vh !important;
+    position: absolute !important;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* background:url(./assets/images/card-bg.jpg); */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.bg {
+    background-image: url(./assets/images/Bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh !important;
+}
+
+.hover_scale {
+    animation: heartbeat .8s linear .4s infinite alternate-reverse;
+}
+
+@keyframes heartbeat {
+    from {
+        transform: scale(0.5);
+    }
+
+    to {
+        transform: scale(1);
+    }
+}
+.page_bottom{
+    position: absolute; 
+    bottom: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    display: none;
+}
+.reset_btn{
+    background: salmon;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+.reset_btn:hover{
+    background: rgb(126, 43, 33);
+    border-radius: 0;
+}
