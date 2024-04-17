@@ -26,6 +26,7 @@ body {
     background-repeat: no-repeat;
     border-radius: 10px;
     cursor: pointer;
+    margin-top: 42px;
 }
 .text-centered{
     position: absolute !important;
