@@ -1,8 +1,5 @@
 var cards = document.querySelectorAll('.card')
-var reset = document.getElementById('reset')
-var indicator = document.getElementById('indicator')
 var main = document.getElementById('main')
-const degrees = 4
 const screen = window.innerWidth
 main.style.display = 'none'
 cards.forEach((card, index) => {
@@ -15,13 +12,6 @@ cards.forEach((card, index) => {
         else {
             indicator.style.setProperty('display', 'block', 'important');
         }
-    })
-})
-reset.addEventListener('click', () => {
-    cards.forEach((card, index) => {
-        card.style.display = 'flex'
-        reset.style.display = 'none'
-        indicator.style.setProperty('display', 'block', 'important');
     })
 })
 
