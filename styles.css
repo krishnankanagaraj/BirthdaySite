@@ -97,10 +97,10 @@ body {
         display: none;
     }
     #countdown{
-        margin-top: 40px;
+        margin-top: 20px;
     }
     .holder{
-        top: 130% !important;
+        top: 120% !important;
     }
 }
 
